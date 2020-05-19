@@ -31,11 +31,9 @@ namespace MuseumTourBackEnd.Controllers
         [Route("MuseumFirstPage")]
         public JsonResult MuseumFirstPage([FromBody] Maintable maintable)//int midex
         {
-            if(maintable.Midex)
             //返回midex对应的mname和mbase
             var searchMuseum = _museumContext.Maintable.FirstOrDefault(
                 m => m.Midex == maintable.Midex);
-            var midex = "-1";
             var mname = "Not found";
             var mbase = "Not found";
             if (searchMuseum != null)
