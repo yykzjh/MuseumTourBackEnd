@@ -12,7 +12,7 @@ using Newtonsoft.Json.Linq;
 
 namespace MuseumTourBackEnd.Controllers
 {
-    [Route("MuseumTourBackEnd/[controller]")]
+    [Route("MuseumTourBackEnd/User")]
     [ApiController]
     public class UserController : Controller
     {
@@ -23,7 +23,7 @@ namespace MuseumTourBackEnd.Controllers
             _museumContext = museumContext;
         }
 
-        //POST: MuseumTourBackEnd/Create
+        //POST: MuseumTourBackEnd/User/Create
         [HttpPost]
         [Route("Create")]
         public JsonResult Create([FromBody] User newUser)
