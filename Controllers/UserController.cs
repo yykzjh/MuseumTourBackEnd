@@ -58,7 +58,7 @@ namespace MuseumTourBackEnd.Controllers
             string Userid = objParams.Userid;
             string Userpwd = objParams.Userpwd;
             var searchUser = _museumContext.User.FirstOrDefault(
-                m => m.Userid == Userid );
+                m => m.Userid == Userid&&m.Userpwd==Userpwd );
 
             if (searchUser != null)
             {
