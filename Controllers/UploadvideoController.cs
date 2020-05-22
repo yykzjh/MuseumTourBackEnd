@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 namespace MuseumTourBackEnd.Controllers
 {
-    [Route("MuseumTourBackEnd/UploadVideo")]
+    [Route("UploadVideo")]
     [ApiController]
     public class UploadVideoController : Controller
     {
@@ -63,13 +63,6 @@ namespace MuseumTourBackEnd.Controllers
             {
                 return Json(new { status = 0 });
             }
-        }
-
-        [HttpGet]
-        [Route("DownVideo")]
-        public JsonResult DownVideo([FromQuery] int Oid)
-        {
-
         }
     }
 

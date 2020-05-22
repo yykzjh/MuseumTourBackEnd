@@ -12,7 +12,7 @@ using Newtonsoft.Json.Linq;
 
 namespace MuseumTourBackEnd.Controllers
 {
-    [Route("MuseumTourBackEnd/Comment")]
+    [Route("Comment")]
     [ApiController]
     public class CommentController : Controller
     {

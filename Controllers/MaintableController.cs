@@ -4,7 +4,7 @@ using MuseumTourBackEnd.Models;
 
 namespace MuseumTourBackEnd.Controllers
 {
-    [Route("MuseumTourBackEnd/[controller]")]
+    [Route("Maintable")]
     [ApiController]
     public class MaintableController : Controller
     {

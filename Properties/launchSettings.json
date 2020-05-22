@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "MuseumTourBackEnd/User",
+      "launchUrl": "User",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "MuseumTourBackEnd": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "MuseumTourBackEnd/User",
+      "launchUrl": "User",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

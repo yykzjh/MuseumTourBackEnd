@@ -4,7 +4,7 @@ using MuseumTourBackEnd.Models;
 
 namespace MuseumTourBackEnd.Controllers
 {
-    [Route("MuseumTourBackEnd/[controller]")]
+    [Route("Exhibition")]
     [ApiController]
     public class ExhibitionController : Controller
     {
