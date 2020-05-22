@@ -34,7 +34,7 @@ namespace MuseumTourBackEnd.Controllers
             if (searchUser == null)
             {
                 newUser.Coright = 1;
-                _museumContext.Add(newUser);
+                _museumContext.User.Add(newUser);
                 _museumContext.SaveChanges();
             }
             else

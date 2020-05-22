@@ -25,6 +25,7 @@ namespace MuseumTourBackEnd.Models
         public virtual DbSet<MuseumInformation> MuseumInformation { get; set; }
         public virtual DbSet<News> News { get; set; }
         public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Uploadvideo> Uploadvideo { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
